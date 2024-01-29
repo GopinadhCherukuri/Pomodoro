@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,69 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.div{
+  background-color: rgb(246, 247, 240);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  background-color:rgb(216, 30, 30);
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.head{
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+.button{
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 5px;
+}
+.button2{
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgb(175, 246, 10);
+  margin: 5px;
+}
+
+.button1{
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 34);
+  margin: 5px;
+}
+.inputValue{
+  height: 40px;
+  border-radius: 5px;
+  
+}
+.button3{
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 5px;
+}
+.numbers{
+  color: white;
+  font-weight: bold;
+}
+.mar{
+  margin-top: 50px;
 }
